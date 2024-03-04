@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+.content {
+  width: 350px;
+  height: 300px;
+  background-color: orange;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 300px;
+  margin-top: 30px;
+  transition: 0.25s;
+}
+.list_content{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-content: space-around ;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+p {
+  font-size: 20px;
+}
+.show {
+  transform: translateX(0%);
+  opacity: 1;
+  visibility: visible;
+}
+.trai {
+  transform: translateX(-100%);
+}
+.phai{
+  transform: translateX(100%);
+}
